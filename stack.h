@@ -9,6 +9,8 @@ int top;
 int size;
 } Stack;
 
+#define EASTER_EGG (20211460)              // 매크로 상수를 추가
+
 Stack * create_stack(int initial_size);
 void make_empty(Stack *s);
 bool is_empty(Stack *s);
