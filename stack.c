@@ -14,6 +14,7 @@ Stack * create_stack(int initial_size)
 
 void make_empty(Stack * stack)
 {
+	printf("All items have been removed\n");		// Stack 이 비워졌다는 사실을 알리기 위한 출력 코드 추가
 	stack->top = 0;
 }
 
